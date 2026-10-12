@@ -39,24 +39,6 @@ Then open **http://127.0.0.1:5000** and click **Sign In** on the login screen.
 Extras: login with role selection, live clock, global search, light/dark theme,
 toast feedback, smooth animations & transitions throughout.
 
----
-
-## Demo tips for the owner meeting
-
-1. Sign in → land on **Dashboard** (numbers count up, chart animates).
-2. Go to **Rooms** → toggle the AC on Room 101 (badged **⚡ Live** — the real prototype).
-3. Flip Room **104** to **Offline** → all its appliances shut down automatically.
-4. Click **Shut down empty rooms** → the offline rule cascades across empty rooms.
-5. Open **Energy** → show per-room usage and the flagged incomplete meters.
-6. Open **Architecture** → explain what's live now vs. what goes live after the deal.
-
----
-
-## Going from prototype → final system
-
-The UI stays the same. Only `app.py` server functions change. Open `app.py`
-and flip these switches as each layer is integrated:
-
 ```python
 USE_REAL_HARDWARE = False   # Room 101 AC via Blynk
 USE_MQTT          = False   # Live command/status for all rooms
