@@ -102,15 +102,6 @@ hiltown_dashboard/
 
 ---
 
-## Notes carried over from the project spec
-
-- An **OFF command is not the same as a verified OFF state** — the final build
-  shows device status only when firmware confirms it.
-- **Monthly energy** requires validated meter readings; missing data is
-  **flagged**, never treated as zero consumption.
-- Meter coverage (per room / per appliance / hotel-wide) is a decision to
-  confirm with the hardware team.
-
 ---
 
 *Prototype for Hiltown Hotel Sylhet. All figures are demo placeholders.*
