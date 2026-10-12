@@ -1,0 +1,7 @@
+# Prototype — only Flask is needed to run the dashboard
+Flask==3.0.3
+
+# --- Uncomment as each integration layer goes live ---
+# requests==2.32.3        # Blynk Cloud HTTP API (Room 101 AC prototype)
+# paho-mqtt==2.1.0        # MQTT broker (final live command/status channel)
+# firebase-admin==6.5.0   # Firebase Cloud data store (rooms, energy, logs)
